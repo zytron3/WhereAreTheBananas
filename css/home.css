@@ -1,0 +1,41 @@
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../banana/banana.jpg");
+    
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  .card {
+      margin: 2em;
+      padding: 1em;
+      /* pale purple used for blog blockquote */
+      background-color: rgba(255, 255, 255, 0.8); 
+      border-radius: 4px;
+  }
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 60px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+ }
+
